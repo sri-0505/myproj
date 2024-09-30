@@ -1,0 +1,25 @@
+interface Animal
+{
+    void Sound();
+}
+interface Mammal
+{
+    void Habitat();
+}
+class Lion implements Animal,Mammal{
+    public void Sound()
+    {
+        System.out.println("Lion roars");
+    }
+    public void Habitat()
+    {
+        System.out.println("Lion lives in the land");
+    }
+}
+class Lionmain
+{
+    public static void main(String[] args)
+    Lion l=new Lion();
+    l.Sound();
+    l.Habitat();
+}
