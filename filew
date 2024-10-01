@@ -1,9 +1,9 @@
 import java.io.FileWriter;
-public class Main{
+public class filew{
     public static void main(String[] args)
     {
         try{
-            FileWriter writer=new FileWriter("File1.txt");
+            FileWriter writer=new FileWriter("File3.txt");
             writer.write("Hello World");
             writer.close();
             System.out.println("Written successfully");
